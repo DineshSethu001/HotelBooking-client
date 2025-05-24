@@ -15,7 +15,7 @@ function ExclusiveOffers() {
                     <div>
                         <p className='text-2xl font-medium font-playfair'>{item.title}</p>
                        <p>{item.description}</p>
-                        <p className="text-xs text-white/70 mt-3">Expires {item.expiryDate}</p>
+                        <p className="text-xs text-white/70 mt-3">Expires {item.expiryDate}</p> 
 
                         </div>
                         <button className='flex items-center gap-2 font-medium cursor-pointer mt-4 mb-5'>

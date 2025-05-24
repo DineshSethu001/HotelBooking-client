@@ -1,6 +1,8 @@
 import Hero from '../components/Hero'
 import FeaturedDestination from '../components/FeaturedDestination'
 import ExclusiveOffers from '../components/ExclusiveOffers'
+import Testimonial from '../components/Testimonial'
+import NewsLetter from '../components/NewsLetter'
 
 function Home() {
   return (
@@ -8,6 +10,8 @@ function Home() {
     <Hero />
     <FeaturedDestination />
     <ExclusiveOffers />
+    <Testimonial/>
+    <NewsLetter/>
     </>
   )
 }
